@@ -80,6 +80,17 @@ Before you submit your Pull Request (PR) please check that you've considered the
 
 - We follow [Stylelint Config Standard](https://github.com/stylelint/stylelint-config-standard) with some adjustments [here](https://github.com/Resultify/nimbly-lite/blob/master/package.json)
 
+#### Class Naming convention
+
+- We follow [BEM](https://en.bem.info/methodology/naming-convention/) with some modifications
+- Class Naming rules:
+  - Names are written in lowercase Latin letters.
+  - The block name defines the namespace for its elements and modifiers. [`card`]
+  - Words are separated by a hyphen (-). [`card-block`]
+  - The element name is separated from the block name by a double underscore (__). [`card-block__text-element`]
+  - The modifier name is separated from the block or element name by two dashes (--). [`card-block__text--full-width`]
+  - Every block or element can have an external and|or internal wrapper separated by one underscore (_). [`card-block_wrp, card-block_internal-wrp`]
+
 ***
 
 ### 3. GIT
